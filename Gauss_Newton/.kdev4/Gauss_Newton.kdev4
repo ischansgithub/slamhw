@@ -1,0 +1,26 @@
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/chenww/slamhw/Gauss_Newton/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=gauss_newton
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Project Target=Gauss_Newton,gauss_newton
+Working Directory=file:///home/chenww/slamhw/Gauss_Newton/build/
+isExecutable=false
