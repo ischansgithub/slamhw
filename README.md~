@@ -1,0 +1,6 @@
+# slam_homework
+《视觉SLAM十四讲》课后代码作业
+disparity:根据双目摄像头拍出的两张图片及一张深度图，生成三维点云，验证双目模型。
+drawtrajectory:根据位姿数据画出平移轨迹图
+gauss_newton:实现高斯牛顿法
+undistort_image:对一张畸变图片进行径向畸变及切向畸变的校正。
