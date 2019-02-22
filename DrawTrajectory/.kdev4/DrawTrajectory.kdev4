@@ -1,0 +1,38 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1c\x00D\x00r\x00a\x00w\x00T\x00r\x00a\x00j\x00e\x00c\x00t\x00o\x00r\x00y)
+
+[CMake]
+Build Directory Count=2
+Current Build Directory Index=1
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/chenww/DrawTrajectory/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[CMake][CMake Build Directory 1]
+Build Directory Path=file:///home/chenww/slamhw/DrawTrajectory/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=drawtrajectory
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=DrawTrajectory,drawtrajectory
+Project Target=DrawTrajectory,drawtrajectory
+Working Directory=file:///home/chenww/DrawTrajectory/build/
+isExecutable=false

@@ -1,0 +1,4 @@
+[Project]
+Name=undistort_image
+Manager=KDevCMakeManager
+VersionControl=

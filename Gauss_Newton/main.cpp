@@ -64,6 +64,7 @@ int main(int argc, char **argv) {
         Vector3d dx;
 	dx = H.ldlt().solve(b);
 
+	//true if arg is a NaN(not a number), false otherwise 
         if (isnan(dx[0])) {
             cout << "result is nan!" << endl;
             break;
@@ -75,7 +76,7 @@ int main(int argc, char **argv) {
             break;
         }
 
-        // 更新abc估计值
+        // 因为要寻找使error最小的ae,be,ce，所以要不断更新ae,be,ce估计值实现向最优的ae,be,ce值的逼近
         ae += dx[0];
         be += dx[1];
         ce += dx[2];
